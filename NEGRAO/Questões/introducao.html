@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-introducao.css">
+    <script src="script.js" defer></script>
+      <link rel="shortcut icon" href="../imagens/favicon-16x16.png" type="image/x-icon">
+    <title>Questões - Criptografia de dados</title>
+</head>
+<body>
+    <section class="container"> 
+
+         <div class="score-container">
+            <p class="score-text">SCORE: <span id="score">0</span></p>
+        </div>
+        
+        <p class="intro"> Introdução à Criptografia</p>
+
+      <h2>Objetivo da criptografia</h2>
+<p><strong>A criptografia</strong> serve para proteger informações, garantindo que apenas pessoas autorizadas possam acessá-las.<br> Ela mantém a confidencialidade dos dados e ajuda na integridade e autenticidade, sendo essencial na segurança digital.</p>
+<br>
+<h2>Criptografia simétrica</h2>
+<p><strong>Na criptografia simétrica</strong>, a mesma chave é usada para criptografar e descriptografar os dados. É rápida e eficiente, mas exige que a chave seja compartilhada de forma segura entre quem envia e quem recebe a informação.</p>
+<br>
+<h2>Criptografia assimétrica</h2>
+<p><strong>Esse tipo de criptografia</strong> usa duas chaves: uma pública, para criptografar, e uma privada, para descriptografar. Isso permite comunicações mais seguras, pois não é preciso compartilhar a chave privada com ninguém.</p>
+<br>
+<h2>Algoritmos de criptografia assimétrica</h2>
+<p><strong>Algoritmos como o RSA</strong> são usados em criptografia assimétrica para garantir que a troca de dados seja segura, mesmo em redes públicas. Eles são amplamente usados em sites, assinaturas digitais e certificados.</p>
+<br>
+<h2>Hash em criptografia</h2>
+<p><strong>Um hash</strong> é uma função que transforma uma informação em um código fixo. Ele não pode ser revertido e é usado para verificar se os dados foram alterados, sendo comum no armazenamento de senhas e verificação de arquivos.</p>
+<br>
+<h2>Algoritmos de hash</h2>
+<p><strong>Algoritmos de hash</strong>, como o SHA-256, são muito usados em segurança da informação. Eles criam um valor único para cada conjunto de dados, ajudando a identificar mudanças ou adulterações nos conteúdos originais.</p>
+<br>
+<h2>Ataque de força bruta</h2>
+<p><strong>Nesse ataque</strong>, o invasor tenta descobrir a chave de criptografia testando todas as combinações possíveis. Embora demorado, pode ser eficaz se a chave for fraca ou o sistema mal configurado.</p>
+<br>
+<h2>Tamanho da chave AES-256</h2>
+<p><strong>O AES-256</strong> é um dos padrões de criptografia mais seguros. O número 256 indica o tamanho da chave em bits, e quanto maior a chave, mais difícil é quebrar a proteção por meio de ataques.</p>
+<br>
+<h2>Objetivos da criptografia</h2>
+<p><strong>A criptografia</strong> garante confidencialidade, autenticidade e integridade dos dados. Porém, ela não assegura a disponibilidade do sistema, que depende de outros mecanismos da segurança da informação.</p>
+<br>
+<h2>Ataque Man-in-the-Middle</h2>
+<p><strong>Esse ataque</strong> acontece quando um invasor intercepta a comunicação entre duas partes. Ele pode ler ou modificar os dados trocados sem que os envolvidos percebam, sendo comum em redes inseguras.</p><br><br>
+
+
+
+        <div class="aviso">CASO ACERTAR A RESPOSTA FICARA EM COR <SPAN>VERDE !!!</SPAN></div>
+        <br>
+            <p class="Questao">Qual é o objetivo principal da criptografia?</p>
+            <p class="Pergunta">(A) Tornar os dados acessíveis a todos</p>
+            <p class="Resposta">(B) Garantir a segurança e a privacidade dos dados </p>
+            <p class="Pergunta">(C) Acelerar a transmissão de dados</p>
+            <p class="Pergunta">(D) Substituir senhas por biometria</p>
+
+            <p class="Questao">Qual dessas técnicas é um tipo de criptografia simétrica?</p>
+            <p class="Pergunta">(A) RSA</p>
+            <p class="Pergunta">(B) ECC</p>
+            <p class="Resposta">(C) AES </p>
+            <p class="Pergunta">(D) SHA-256</p>
+
+            <p class="Questao">O que caracteriza a criptografia assimétrica?</p>
+            <p class="Pergunta">(A) Uso da mesma chave para cifrar e decifrar</p>
+            <p class="Resposta">(B) Uso de chaves pública e privada </p>
+            <p class="Pergunta">(C) Impossibilidade de descriptografar os dados</p>
+            <p class="Pergunta">(D) Algoritmos de hash</p>
+
+            <p class="Questao">Qual desses algoritmos é um exemplo de criptografia assimétrica?</p>
+            <p class="Pergunta">(A) AES</p>
+            <p class="Resposta">(B) RSA </p>
+            <p class="Pergunta">(C) DES</p>
+            <p class="Pergunta">(D) Blowfish</p>
+
+            <p class="Questao">O que é um hash em criptografia?</p>
+            <p class="Pergunta">(A) Um algoritmo de criptografia reversível</p>
+            <p class="Resposta">(B) Uma função matemática que gera uma saída fixa a partir de uma entrada </p>
+            <p class="Pergunta">(C) Um método de compressão de arquivos</p>
+            <p class="Pergunta">(D) Uma chave criptográfica</p>
+
+            <p class="Questao">Qual dos seguintes algoritmos é um hash criptográfico?</p>
+            <p class="Pergunta">(A) RSA</p>
+            <p class="Pergunta">(B) AES</p>
+            <p class="Resposta">(C) SHA-256 </p>
+            <p class="Pergunta">(D) ECC</p>
+
+            <p class="Questao">Qual desses ataques tenta descobrir uma chave criptográfica testando todas as combinações possíveis?</p>
+            <p class="Pergunta">(A) Phishing</p>
+            <p class="Pergunta">(B) Man-in-the-Middle</p>
+            <p class="Resposta">(C) Ataque de força bruta </p>
+            <p class="Pergunta">(D) Engenharia social</p>
+
+            <p class="Questao">Qual é o tamanho da chave do AES-256?</p>
+            <p class="Pergunta">(A) 128 bits</p>
+            <p class="Pergunta">(B) 192 bits</p>
+            <p class="Resposta">(C) 256 bits </p>
+            <p class="Pergunta">(D) 512 bits</p>
+
+            <p class="Questao">Qual dessas opções NÃO é um objetivo da criptografia?</p>
+            <p class="Pergunta">(A) Confidencialidade</p>
+            <p class="Pergunta">(B) Integridade</p>
+            <p class="Resposta">(C) Disponibilidade </p>
+            <p class="Pergunta">(D) Autenticidade</p>
+
+            <p class="Questao">O que é um ataque Man-in-the-Middle?</p>
+            <p class="Pergunta">(A) Quando um hacker rouba uma senha digitada em um teclado</p>
+            <p class="Resposta">(B) Quando um invasor intercepta e altera a comunicação entre duas partes </p>
+            <p class="Pergunta">(C) Quando um ataque DDoS sobrecarrega um servidor</p>
+            <p class="Pergunta">(D) Quando uma senha é quebrada por tentativa e erro</p>
+        
+    </section>
+</body>
+</html>
