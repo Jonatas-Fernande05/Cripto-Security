@@ -17,7 +17,6 @@ body {
     background-attachment: fixed;
     z-index: 999;
 }
-    
 
 .container h1, h2 {
     margin-bottom: 2rem;
@@ -39,14 +38,14 @@ body {
     padding: 1rem 0rem;
 }
 
-p{
+p {
     margin-left: 40px;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
 }
 
-.Pergunta, .Resposta{
+.Pergunta, .Resposta {
     font-size: 1.3rem;
     cursor: pointer;
     padding: 0.2rem 2rem;
@@ -57,8 +56,8 @@ p{
     font-weight: bold;
     text-align: center;
     font-family: 'poppins';
-
 }
+
 .aviso span {
     color: green;
     font-size: 2.3rem;
@@ -85,7 +84,7 @@ h2 {
     text-transform: capitalize;
 }
 
-section{
+section {
     padding-bottom: 2rem;
 }
 
@@ -109,4 +108,109 @@ section{
 .opcao {
     cursor: pointer;
     transition: color 0.3s ease-in-out;
+}
+
+
+/* Media Queries para Responsividade */
+
+/* Tablets e telas médias */
+@media (max-width: 900px) {
+    .container {
+        width: 70%;
+        margin-top: 3rem;
+        padding: 12px 10px;
+    }
+
+    .container h1 {
+        font-size: 1.6rem;
+        padding: 0.7rem 0;
+    }
+
+    .Pergunta, .Resposta {
+        font-size: 1.1rem;
+        padding: 0.2rem 1rem;
+    }
+
+    p {
+        margin-left: 20px;
+        font-size: 0.95rem;
+        line-height: 22px;
+    }
+
+    .intro {
+        font-size: 2rem;
+        padding: 1.5rem 0;
+    }
+
+    .Questao {
+        font-size: 1.6rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .score-container {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        top: 8px;
+        right: 15px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-top: 2rem;
+        padding: 10px 8px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        font-size: 1.3rem;
+        padding: 0.5rem 0;
+    }
+
+    .Pergunta, .Resposta {
+        font-size: 1rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    p {
+        margin-left: 10px;
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .intro {
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
+
+    .Questao {
+        font-size: 1.3rem;
+        padding: 0.6rem 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .score-container {
+        padding: 8px 15px;
+        font-size: 1rem;
+        top: 6px;
+        right: 10px;
+    }
+}
+
+/* Pequenas telas */
+@media (max-width: 400px) {
+    p {
+        margin-left: 5px;
+        font-size: 0.85rem;
+        line-height: 18px;
+    }
+
+    .Pergunta, .Resposta {
+        padding: 0.15rem 0.3rem;
+    }
 }
