@@ -110,6 +110,10 @@ section {
     transition: color 0.3s ease-in-out;
 }
 
+.container ul li{
+    font-style: none;
+}
+
 
 /* Media Queries para Responsividade */
 
